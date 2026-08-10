@@ -2,9 +2,11 @@
 
 # Hi, I'm Aniket Dwivedi 👋
 
-### The Data Guy 🛠️ — Data Engineer · Data Architect · Governed Lakehouse Platforms — with serious BI skills on top
+### The Data Guy 🛠️ — I build the layer under the dashboard
 
-**Data & AI Evangelist · Solutions Architect, Chief Data Office** · Pune, India
+**Data Engineering · Data Architecture · Governance · Agentic AI — with serious BI skills on top**
+
+Solutions Architect, Chief Data Office · Pune, India
 
 <p>
   <a href="https://www.linkedin.com/in/dwivedianiket/"><img src="https://img.shields.io/badge/LinkedIn-dwivedianiket-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
@@ -53,13 +55,11 @@ Fifteen years in, the through-line hasn't changed: **make the number defensible,
 then make it easy.** Everything in the repositories below is that belief in
 runnable form.
 
-> **In short** — Data Engineering (Python · PySpark · SQL/PL-SQL · Databricks ·
-> Snowflake · Microsoft Fabric · Starburst/Trino · ETL/ELT) · Data Architecture
-> (Data Vault 2.0 · dimensional modelling · lakehouse · TOGAF) · Data Governance
-> (DAMA CDMP · Collibra · data quality · lineage · MDM · CDO operating models) ·
-> BI at scale (5× Tableau certified · 500+ workbook estates · Power BI) ·
-> Agentic AI (Agentforce · Data 360 · IAPP AIGP) · Agile delivery (SAFe) under
-> regulatory deadlines.
+> **In short** — **Engineering:** Python · PySpark · SQL/PL-SQL · Databricks ·
+> Snowflake · Fabric · Starburst/Trino · ETL/ELT · **Architecture:** Data Vault 2.0 ·
+> dimensional modelling · lakehouse · TOGAF · **Governance:** DAMA CDMP · Collibra ·
+> data quality · lineage · MDM · CDO operating models · **BI:** 5× Tableau certified ·
+> 500+ workbook estates · Power BI · **AI:** Agentforce · Data 360 · IAPP AIGP
 
 ## 📂 What I've Published
 
