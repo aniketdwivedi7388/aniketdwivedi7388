@@ -206,12 +206,30 @@ Open to consulting, advisory and speaking on any of the above.
 
 📫 **[LinkedIn](https://www.linkedin.com/in/dwivedianiket/)** · **[aniketdwivedi.com](https://www.aniketdwivedi.com)** · **[aniket.dwivedi@icloud.com](mailto:aniket.dwivedi@icloud.com)**
 
-## 📈 GitHub
+## 📈 By the Numbers
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aniketdwivedi7388&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0071E3&icon_color=0071E3" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketdwivedi7388&layout=compact&hide_border=true&langs_count=8&title_color=0071E3" alt="Top Languages" height="165">
+<div align="center">
+<p>
+  <img src="https://img.shields.io/badge/public%20repositories-7-0071E3?style=for-the-badge&logo=github&logoColor=white" alt="7 public repositories">
+  <img src="https://img.shields.io/badge/lines%20published-~38%2C000-2E7D32?style=for-the-badge" alt="~38,000 lines published">
+  <img src="https://img.shields.io/badge/tests-255%20passing-16A34A?style=for-the-badge&logo=pytest&logoColor=white" alt="255 tests passing">
+  <img src="https://img.shields.io/badge/licence-MIT-blue?style=for-the-badge" alt="MIT licensed">
 </p>
+</div>
+
+<p align="center"><i>The tests live in the repositories, not in that badge — clone any of them and run <code>pytest</code>.</i></p>
+
+<!--
+  GitHub stats cards. Enabled here for later: github-readme-stats runs on a
+  shared free Vercel instance that is frequently rate-limited by the GitHub API,
+  and a card that fails renders as a broken image on the profile. Uncomment once
+  you are happy to rely on it (or self-host the service on your own Vercel).
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=aniketdwivedi7388&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0071E3&icon_color=0071E3" alt="GitHub Stats" height="165">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketdwivedi7388&layout=compact&hide_border=true&langs_count=8&title_color=0071E3" alt="Top Languages" height="165">
+  </p>
+-->
 
 ---
 
