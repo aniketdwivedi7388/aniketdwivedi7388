@@ -19,10 +19,32 @@
 ## 🚀 About Me
 
 - 🔧 **15+ years as a Data Engineer & Data Architect** — ETL/ELT pipelines in **Python · PySpark · SQL/PL-SQL · Alteryx** over **Snowflake, Databricks, Oracle, Teradata** and Big Data back ends, for global banking, asset management & financial services (DWS/Deutsche Bank, JPMorgan Chase, Emerson)
-- 🏗️ **Data platform architect** — dimensional & data-vault modelling, data marts/warehouses, conformed dimensions & certified datasets; lakehouse on **Microsoft Fabric (OneLake) & Azure**; federated SQL with **Starburst/Trino**; REST-API ingestion & automation
+- 🏗️ **Data platform architect** — dimensional, Data Vault 2.0 and data-vault modelling, data marts/warehouses, conformed dimensions & certified datasets; lakehouse on **Microsoft Fabric (OneLake) & Azure**; federated SQL with **Starburst/Trino**; REST-API ingestion & automation
 - 🛡️ **Governed by design (DAMA CDMP)** — Collibra glossary, lineage & stewardship, data-quality rules, MDM and "data-as-an-asset" operating models for a Chief Data Office
 - 📊 **BI when the data's ready to talk** — 5× Tableau-certified architect running **500+ workbook** estates (RLS, performance tuning, Server-to-Cloud migration); Power BI & CRM Analytics
 - 🤖 **Agentic AI on governed data** — Salesforce **Agentforce & Data 360 (Data Cloud)** with responsible-AI controls (**IAPP AIGP**); **TOGAF** Enterprise Architect · **SAFe** delivery under regulatory (FED) deadlines
+
+## 📂 What I've Published
+
+Open-source reference implementations of the patterns above. **Everything here was
+executed before it was published** — the pipelines run, the tests pass, and the
+numbers in each README came from a real run rather than an estimate.
+
+| Repository | What it is | Proof |
+|---|---|---|
+| **[sap-data-vault-2](https://github.com/aniketdwivedi7388/sap-data-vault-2)** | Data Vault 2.0 over real SAP procurement tables (LFA1, EKKO, EKPO, EKBE, MARA). Four source systems, hubs / links / multi-source satellites, hash keys & diffs, PIT + bridge, business vault, star marts. | Runs in 60s on DuckDB · 32 tests |
+| **[lakehouse-pipeline-patterns](https://github.com/aniketdwivedi7388/lakehouse-pipeline-patterns)** | PySpark medallion architecture — incremental ingestion with watermarks, SCD Type 2, a declarative data-quality engine, as-of dimensional joins. | Runs on a laptop, no cluster · 23 tests |
+| **[pyspark-rdd-internals](https://github.com/aniketdwivedi7388/pyspark-rdd-internals)** | What actually happens on the cluster: map-side combine, shuffle bytes, partitioning, caching, skew — each **measured**, then shown as the DataFrame/SQL equivalent you should ship. | 28 tests · real measurements |
+| **[pydb-connect](https://github.com/aniketdwivedi7388/pydb-connect)** | Config-driven connectivity across MySQL, Postgres, Oracle, Snowflake, SQLite and ADLS. Secrets never in the repo, connections that always close, bulk loads that batch, retries that classify errors. | 172 tests · imports with zero drivers |
+| **[data-governance-toolkit](https://github.com/aniketdwivedi7388/data-governance-toolkit)** | The working artefacts of a governance function — glossary templates, a 61-rule DQ catalogue with a runnable YAML-driven engine, stewardship operating model, RACIs, CDO KPI framework, lineage guide. | DAMA-DMBOK aligned · runnable gate |
+| **[governed-ai-grounding](https://github.com/aniketdwivedi7388/governed-ai-grounding)** | Grounding enterprise AI agents in governed data — reference architecture, semantic layer as metric contract, guardrail patterns, AI controls mapping, evaluation harness. | Runnable eval harness, CI-ready |
+| **[tableau-architecture-playbook](https://github.com/aniketdwivedi7388/tableau-architecture-playbook)** | Enterprise Tableau at scale — certified data sources, RLS patterns, performance tuning, content rationalisation, Server→Cloud migration runbooks, estate-audit / Hyper API / TabPy scripts. | Read-only audit tooling included |
+
+Three of these reproduce failure modes I have actually hit and fixed — a future-dated
+row poisoning a watermark so a job silently ingests nothing forever; SAP purchase-order
+numbers colliding across instances because they are not globally unique; a quality suite
+reporting 100% pass on broken data because `NULL > 0` is `NULL`, not `false`.
+Reproducing a bug is worth more than describing one.
 
 ## 🛠️ Tech Stack
 
@@ -52,10 +74,12 @@
   <img src="https://img.shields.io/badge/IBM%20DB2-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM DB2">
   <img src="https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black" alt="Apache Hive">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB">
   <img src="https://img.shields.io/badge/Starburst%20·%20Trino-DD00A1?style=for-the-badge&logo=trino&logoColor=white" alt="Starburst / Trino">
   <img src="https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Microsoft Azure">
   <img src="https://img.shields.io/badge/Microsoft%20Fabric%20·%20OneLake-117865?style=for-the-badge" alt="Microsoft Fabric">
   <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud">
+  <img src="https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP">
 </p>
 
 **BI & Analytics**
@@ -75,6 +99,7 @@
 <p>
   <img src="https://img.shields.io/badge/Collibra-233C56?style=for-the-badge" alt="Collibra">
   <img src="https://img.shields.io/badge/DAMA--DMBOK-1B3A57?style=for-the-badge" alt="DAMA-DMBOK">
+  <img src="https://img.shields.io/badge/Data%20Vault%202.0-6A1B9A?style=for-the-badge" alt="Data Vault 2.0">
   <img src="https://img.shields.io/badge/Salesforce%20Agentforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce Agentforce">
   <img src="https://img.shields.io/badge/Data%20360%20(Data%20Cloud)-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Data 360">
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira">
@@ -115,6 +140,20 @@
 | 🏗️ **Architecture & Cloud** | **TOGAF Enterprise Architecture Practitioner** (The Open Group) · Google Cloud |
 | 🔄 **Agile & Analysis** | Certified **SAFe Agilist** (AI-Empowered) · **BCS Certified Business Analyst** |
 
+## 🏢 Domains
+
+Data platforms are only as good as the domain understanding behind them. Where
+I have delivered:
+
+| Domain | Depth |
+|---|---|
+| **Asset & Investment Management** | Chief Data Office reporting, AUM and net-flow metrics, mandate and benchmark data, investment-risk and controls reporting, regulatory (FED) submissions |
+| **Banking & Credit Risk** | Credit-card and corporate credit-risk estates — exposure, delinquency, vintage, loss forecasting and portfolio-risk reporting on governed warehouse foundations |
+| **Procurement & Supply Chain** | Purchase-to-pay and SAP procurement data (purchase orders, goods receipts, vendor master, info records), inventory, logistics, vendor performance and on-time-delivery analytics |
+| **Retail & Omnichannel** | Market-basket analysis, cross-sell and loyalty segmentation, competitor price-index tracking for dynamic pricing, store-traffic prediction |
+| **Insurance** | Policy and claims analytics, predictive risk modelling |
+| **Energy & Telecom** | Power-distribution and smart-meter style operational data, network and customer-experience reporting |
+
 ## 📌 Signature Projects
 
 **🏛️ "House of Data" — Governed Data Foundation + Agentic AI** · *DWS (Deutsche Bank Group)*<br>
@@ -149,24 +188,35 @@ Market-basket analysis, cross-sell/upsell recommendations, loyalty segmentation,
 ## 🎯 Current Focus
 
 - ⚡ **Data Engineering** — lakehouse pipelines with **Databricks & PySpark** (certified Data Engineer Professional), Microsoft Fabric/OneLake, Snowflake & Starburst/Trino federation
-- 🏗️ **Data Architecture** — TOGAF-driven target-state design: conformed dimensions, certified datasets and governed semantic layers for CDO-scale platforms
+- 🏗️ **Data Architecture** — Data Vault 2.0 for multi-source landscapes, TOGAF-driven target-state design, conformed dimensions and governed semantic layers at CDO scale
 - 🤖 **Agentic analytics** — Agentforce agents grounded in governed data, Tableau Pulse proactive insights
 - 🛡️ **AI governance** — extending DAMA-style controls to AI/agentic data pipelines (IAPP AIGP)
 
-<!--
-## 📈 GitHub Stats
-Uncomment once you're actively committing — stats cards look best with regular activity.
+## 🤝 Let's Talk
+
+Always happy to compare notes with people working on the same problems. Particularly
+interested in conversations about:
+
+- **Data platform & architecture leadership** — Data Architect, Principal / Lead Data Engineer, Data Platform Lead
+- **Chief Data Office and governance transformation** — operating models, DAMA-aligned frameworks, Collibra adoption
+- **Enterprise BI at scale** — Tableau architecture, migration and rationalisation
+- **Agentic AI on governed data** — and where the governance actually has to sit
+
+Open to consulting, advisory and speaking on any of the above.
+
+📫 **[LinkedIn](https://www.linkedin.com/in/dwivedianiket/)** · **[aniketdwivedi.com](https://www.aniketdwivedi.com)** · **[aniket.dwivedi@icloud.com](mailto:aniket.dwivedi@icloud.com)**
+
+## 📈 GitHub
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aniketdwivedi7388&show_icons=true&theme=default" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=aniketdwivedi7388&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=0071E3&icon_color=0071E3" alt="GitHub Stats" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketdwivedi7388&layout=compact&hide_border=true&langs_count=8&title_color=0071E3" alt="Top Languages" height="165">
 </p>
--->
 
 ---
 
 <div align="center">
 
-💬 *Open to conversations on data engineering, lakehouse architecture, data governance, Tableau at scale and agentic AI.*
-
-📫 **[LinkedIn](https://www.linkedin.com/in/dwivedianiket/)** · **[aniketdwivedi.com](https://www.aniketdwivedi.com)** · **[aniket.dwivedi@icloud.com](mailto:aniket.dwivedi@icloud.com)**
+💬 *Everything in the repositories above is runnable. Clone it, run it, tell me where I'm wrong.*
 
 </div>
