@@ -18,11 +18,49 @@
 
 ## 🚀 About Me
 
-- 🔧 **15+ years as a Data Engineer & Data Architect** — ETL/ELT pipelines in **Python · PySpark · SQL/PL-SQL · Alteryx** over **Snowflake, Databricks, Oracle, Teradata** and Big Data back ends, for global banking, asset management & financial services (DWS/Deutsche Bank, JPMorgan Chase, Emerson)
-- 🏗️ **Data platform architect** — dimensional, Data Vault 2.0 and data-vault modelling, data marts/warehouses, conformed dimensions & certified datasets; lakehouse on **Microsoft Fabric (OneLake) & Azure**; federated SQL with **Starburst/Trino**; REST-API ingestion & automation
-- 🛡️ **Governed by design (DAMA CDMP)** — Collibra glossary, lineage & stewardship, data-quality rules, MDM and "data-as-an-asset" operating models for a Chief Data Office
-- 📊 **BI when the data's ready to talk** — 5× Tableau-certified architect running **500+ workbook** estates (RLS, performance tuning, Server-to-Cloud migration); Power BI & CRM Analytics
-- 🤖 **Agentic AI on governed data** — Salesforce **Agentforce & Data 360 (Data Cloud)** with responsible-AI controls (**IAPP AIGP**); **TOGAF** Enterprise Architect · **SAFe** delivery under regulatory (FED) deadlines
+**I started out building dashboards.** Somewhere around the fiftieth *"can you just
+add a filter?"*, I noticed the pattern: the dashboard was almost never the problem.
+Two reports disagreed because two systems defined *active customer* differently.
+A supplier's spend looked halved because the same vendor existed twice under
+slightly different keys. A number couldn't be defended because nobody could say
+where it came from. So I kept moving one layer down.
+
+**Down into the pipelines first.** SQL and PL/SQL, then Python and PySpark; ETL and
+ELT over Oracle, Teradata, Snowflake and Databricks; watermarks, incremental loads
+and the unglamorous discipline of making a job safe to re-run at 3am. A report is
+only ever as good as the load that fed it.
+
+**Then into the models.** Dimensional first, then Data Vault — because a warehouse
+serving eight source systems needs somewhere for their disagreements to *live*
+rather than be averaged away. Then into architecture proper, and TOGAF, because
+the design that survives contact with an organisation is the one that fits a
+target state somebody actually signed.
+
+**Then into governance, which turned out to be the layer I'd been circling all
+along.** A glossary term with a named owner. A data-quality rule with the teeth to
+stop a load. Lineage you can put in front of an auditor. This is the machinery
+that makes a number *mean* something — and it's why DAMA CDMP, Collibra and Chief
+Data Office operating models are how I spend my time now.
+
+**Today** I'm AVP / Solutions Architect in the Chief Data Office at **DWS
+(Deutsche Bank Group)**, building governed data foundations and, on top of them,
+agentic AI — because an agent answering questions about enterprise data is exactly
+as trustworthy as the certified datasets, entitlements and lineage underneath it.
+That work has run through banking and credit risk, asset management, procurement
+and supply chain, retail and insurance, at JPMorgan Chase, Emerson, Accenture and
+TCS along the way.
+
+Fifteen years in, the through-line hasn't changed: **make the number defensible,
+then make it easy.** Everything in the repositories below is that belief in
+runnable form.
+
+> **In short** — Data Engineering (Python · PySpark · SQL/PL-SQL · Databricks ·
+> Snowflake · Microsoft Fabric · Starburst/Trino · ETL/ELT) · Data Architecture
+> (Data Vault 2.0 · dimensional modelling · lakehouse · TOGAF) · Data Governance
+> (DAMA CDMP · Collibra · data quality · lineage · MDM · CDO operating models) ·
+> BI at scale (5× Tableau certified · 500+ workbook estates · Power BI) ·
+> Agentic AI (Agentforce · Data 360 · IAPP AIGP) · Agile delivery (SAFe) under
+> regulatory deadlines.
 
 ## 📂 What I've Published
 
