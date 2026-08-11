@@ -69,6 +69,7 @@ numbers in each README came from a real run rather than an estimate.
 
 | Repository | What it is | Proof |
 |---|---|---|
+| **[trade-to-report](https://github.com/aniketdwivedi7388/trade-to-report)** | A domain data architecture for banking, worked end to end. One canonical model read by a finance lens and a risk lens that produce **four different numbers for the same derivatives book** — with a published reconciliation, lineage captured by the loaders themselves, and 42 data standards, ten of them enforced by a linter that fails the build. | 60 tests · linter has negative tests |
 | **[sap-data-vault-2](https://github.com/aniketdwivedi7388/sap-data-vault-2)** | Data Vault 2.0 over real SAP procurement tables (LFA1, EKKO, EKPO, EKBE, MARA). Four source systems, hubs / links / multi-source satellites, hash keys & diffs, PIT + bridge, business vault, star marts. | Runs in 60s on DuckDB · 32 tests |
 | **[lakehouse-pipeline-patterns](https://github.com/aniketdwivedi7388/lakehouse-pipeline-patterns)** | PySpark medallion architecture — incremental ingestion with watermarks, SCD Type 2, a declarative data-quality engine, as-of dimensional joins. | Runs on a laptop, no cluster · 23 tests |
 | **[pyspark-rdd-internals](https://github.com/aniketdwivedi7388/pyspark-rdd-internals)** | What actually happens on the cluster: map-side combine, shuffle bytes, partitioning, caching, skew — each **measured**, then shown as the DataFrame/SQL equivalent you should ship. | 28 tests · real measurements |
@@ -253,9 +254,9 @@ Open to consulting, advisory and speaking on any of the above.
 
 <div align="center">
 <p>
-  <img src="https://img.shields.io/badge/public%20repositories-7-0071E3?style=for-the-badge&logo=github&logoColor=white" alt="7 public repositories">
-  <img src="https://img.shields.io/badge/lines%20published-~38%2C000-2E7D32?style=for-the-badge" alt="~38,000 lines published">
-  <img src="https://img.shields.io/badge/tests-255%20passing-16A34A?style=for-the-badge&logo=pytest&logoColor=white" alt="255 tests passing">
+  <img src="https://img.shields.io/badge/public%20repositories-8-0071E3?style=for-the-badge&logo=github&logoColor=white" alt="8 public repositories">
+  <img src="https://img.shields.io/badge/lines%20published-~45%2C000-2E7D32?style=for-the-badge" alt="~45,000 lines published">
+  <img src="https://img.shields.io/badge/tests-315%20passing-16A34A?style=for-the-badge&logo=pytest&logoColor=white" alt="315 tests passing">
   <img src="https://img.shields.io/badge/licence-MIT-blue?style=for-the-badge" alt="MIT licensed">
 </p>
 </div>
