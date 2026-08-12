@@ -2,9 +2,11 @@
 
 # Hi, I'm Aniket Dwivedi 👋
 
-### The Data Guy 🛠️ — I build the layer under the dashboard
+### Data Engineering Architect 🛠️ — I build the layer under the dashboard
 
-**Data Engineering · Data Architecture · Governance · Agentic AI — with serious BI skills on top**
+**Lakehouse · Data Vault 2.0 · PySpark & SQL at scale · Governed by design**
+
+*and BI & Analytics at enterprise scale — 5× Tableau certified, 500+ workbook estates*
 
 Solutions Architect, Chief Data Office · Pune, India
 
@@ -44,28 +46,36 @@ stop a load. Lineage you can put in front of an auditor. This is the machinery
 that makes a number *mean* something — and it's why DAMA CDMP, Collibra and Chief
 Data Office operating models are how I spend my time now.
 
-**Today** I'm a Solutions Architect in a Chief Data Office, building governed data
-foundations and, on top of them, agentic AI — because an agent answering questions
-about enterprise data is exactly as trustworthy as the certified datasets,
-entitlements and lineage underneath it. That work has run through Chief Data
-Office, Credit Risk & Regulatory Reporting, Procurement & Supply Chain,
-Merchandising & Customer Analytics, Risk Analytics and Data & Analytics
-Centre of Excellence functions.
+**Today I work as a data engineering architect** — designing and building the
+foundation itself: ingestion and pipeline design, the canonical and Data Vault
+models underneath, the lakehouse they land in, and the governance that makes any
+of it defensible. On top of that I still build the BI and analytics layer,
+because knowing exactly what a dashboard will ask of a model is what stops you
+designing one it cannot answer. Increasingly the consumer is an agent rather
+than a person, and an agent answering questions about enterprise data is exactly
+as trustworthy as the certified datasets, entitlements and lineage underneath it.
+That work has run through Chief Data Office, Credit Risk & Regulatory Reporting,
+Procurement & Supply Chain, Merchandising & Customer Analytics, Risk Analytics
+and Data & Analytics Centre of Excellence functions.
 
 Fifteen years in, the through-line hasn't changed: **make the number defensible,
 then make it easy.** Everything in the repositories below is that belief in
 runnable form.
 
-> **In short** — **Engineering:** Python · PySpark · SQL/PL-SQL · Databricks ·
-> Snowflake · Fabric · Starburst/Trino · ETL/ELT · **Architecture:** Data Vault 2.0 ·
-> dimensional modelling · lakehouse · TOGAF · **Governance:** DAMA CDMP · Collibra ·
-> data quality · lineage · MDM · CDO operating models · **BI:** 5× Tableau certified ·
-> 500+ workbook estates · Power BI · **AI:** Agentforce · Data 360 · IAPP AIGP
+> **Primary — Data Engineering & Architecture.** Python · PySpark · SQL/PL-SQL ·
+> Databricks · Snowflake · Microsoft Fabric · Starburst/Trino · ETL/ELT · Data Vault 2.0 ·
+> dimensional modelling · lakehouse · TOGAF · DAMA CDMP · Collibra · data quality ·
+> lineage · MDM
+>
+> **Secondary — BI & Analytics.** 5× Tableau certified · Tableau Server/Cloud
+> architecture · 500+ workbook estates · RLS and certified data sources · Power BI ·
+> Tableau Pulse · plus agentic AI on governed data (Agentforce · Data 360 · IAPP AIGP)
 
 ## 📂 What I've Published
 
-Open-source reference implementations of the patterns above. **Everything here was
-executed before it was published** — the pipelines run, the tests pass, and the
+Open-source reference implementations of the patterns above, ordered the way I'd
+want them read — engineering and architecture first, BI last. **Everything here
+was executed before it was published**: the pipelines run, the tests pass, and the
 numbers in each README came from a real run rather than an estimate.
 
 | Repository | What it is | Proof |
@@ -195,17 +205,21 @@ I have delivered:
 
 ## 📌 Signature Projects
 
+### Data Engineering & Architecture
+
 **🏛️ "House of Data" — Governed Data Foundation + Agentic AI** · *Chief Data Office*<br>
 Engineered the Chief Data Office's single-source data foundation — ingestion, harmonisation and modelling across **Snowflake, Azure & Microsoft Fabric**, federated through **Starburst/Trino**, governed in **Collibra** — then built agentic-AI experiences on **Agentforce, Prompt Builder & Data 360** so leadership can ask natural-language questions on governance, quality and lineage, feeding senior risk dashboards and regulatory (FED) reporting.
-
-**🚢 COVID-19 Live Global Ports & Shipping-Routes Command Center** · *Procurement & Supply Chain*<br>
-**Python + REST-API ingestion pipelines** feeding a live Tableau dashboard with real-time status of countries, borders and ports — best/most-affordable route recommendations across Sea, Air & Land with live climate-warning overlays. The procurement team's daily command center as global supply lines changed by the hour.
 
 **📦 Data-as-a-Service at Scale** · *Data & Analytics Centre of Excellence*<br>
 Owned the full pipeline — data marts, dimensional models, **ETL with Tableau Prep · Alteryx · Oracle SQL · Python** (incl. Scrapy web-scraping of alternative data) — deploying **150+ governed dashboards globally**; embedded MDM & anomaly monitoring that helped identify **$20M in supply-chain savings**.
 
 **🏦 Credit-Risk Data & Analytics — Consumer & Corporate Banking** · *Credit Risk & Regulatory Reporting*<br>
 Built governed data foundations on **Snowflake** with enterprise **ETL/ELT pipelines (Python — pandas/NumPy, Alteryx)** over Oracle & Big Data back ends, powering exposure, delinquency, vintage and portfolio-risk reporting for credit-card operations with audited source-to-target lineage.
+
+### BI & Analytics
+
+**🚢 COVID-19 Live Global Ports & Shipping-Routes Command Center** · *Procurement & Supply Chain*<br>
+**Python + REST-API ingestion pipelines** feeding a live Tableau dashboard with real-time status of countries, borders and ports — best/most-affordable route recommendations across Sea, Air & Land with live climate-warning overlays. The procurement team's daily command center as global supply lines changed by the hour.
 
 **🛒 Omnichannel Retail Analytics** · *Merchandising & Customer Analytics*<br>
 Market-basket analysis, cross-sell/upsell recommendations, loyalty segmentation, **Python-based competitor price-index pipelines** for dynamic pricing, and store-traffic prediction on Teradata-backed data.
@@ -231,17 +245,24 @@ specifics in a conversation.*
 
 ## 🎯 Current Focus
 
-- ⚡ **Data Engineering** — lakehouse pipelines with **Databricks & PySpark** (certified Data Engineer Professional), Microsoft Fabric/OneLake, Snowflake & Starburst/Trino federation
-- 🏗️ **Data Architecture** — Data Vault 2.0 for multi-source landscapes, TOGAF-driven target-state design, conformed dimensions and governed semantic layers at CDO scale
-- 🤖 **Agentic analytics** — Agentforce agents grounded in governed data, Tableau Pulse proactive insights
-- 🛡️ **AI governance** — extending DAMA-style controls to AI/agentic data pipelines (IAPP AIGP)
+**Primary — data engineering architecture**
+
+- ⚡ **Pipelines & platform** — lakehouse pipelines with **Databricks & PySpark** (certified Data Engineer Professional), Microsoft Fabric/OneLake, Snowflake, Starburst/Trino federation; incremental loads and jobs that are safe to re-run
+- 🏗️ **Modelling & target state** — Data Vault 2.0 for multi-source landscapes, canonical domain models, TOGAF-driven target-state design, conformed dimensions and governed semantic layers at CDO scale
+- 🛡️ **Governance in the pipeline, not beside it** — data quality with the teeth to stop a load, lineage captured as data, policy conformance that fails a build
+
+**Secondary — BI & analytics on top of it**
+
+- 📊 **BI at scale** — Tableau Server/Cloud architecture, certified data sources, row-level security, estate rationalisation; Power BI
+- 🤖 **Agentic analytics** — Agentforce agents grounded in governed data, Tableau Pulse proactive insights, and extending DAMA-style controls to AI pipelines (IAPP AIGP)
 
 ## 🤝 Let's Talk
 
 Always happy to compare notes with people working on the same problems. Particularly
 interested in conversations about:
 
-- **Data platform & architecture leadership** — Data Architect, Principal / Lead Data Engineer, Data Platform Lead
+- **Data engineering architecture** — Data Engineering Architect, Data Architect, Principal / Lead Data Engineer, Data Platform Lead
+- **Lakehouse and warehouse design** — Data Vault 2.0, canonical domain models, migration off legacy estates
 - **Chief Data Office and governance transformation** — operating models, DAMA-aligned frameworks, Collibra adoption
 - **Enterprise BI at scale** — Tableau architecture, migration and rationalisation
 - **Agentic AI on governed data** — and where the governance actually has to sit
