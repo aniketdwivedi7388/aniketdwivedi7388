@@ -47,9 +47,10 @@ Data Office operating models are how I spend my time now.
 **Today** I'm a Solutions Architect in a Chief Data Office, building governed data
 foundations and, on top of them, agentic AI — because an agent answering questions
 about enterprise data is exactly as trustworthy as the certified datasets,
-entitlements and lineage underneath it. That work has run through banking and
-credit risk, asset management, procurement and supply chain, retail and insurance,
-across global banks, asset managers, industrial manufacturers and consultancies.
+entitlements and lineage underneath it. That work has run through Chief Data
+Office, Credit Risk & Regulatory Reporting, Procurement & Supply Chain,
+Merchandising & Customer Analytics, Risk Analytics and Data & Analytics
+Centre of Excellence functions.
 
 Fifteen years in, the through-line hasn't changed: **make the number defensible,
 then make it easy.** Everything in the repositories below is that belief in
@@ -194,19 +195,19 @@ I have delivered:
 
 ## 📌 Signature Projects
 
-**🏛️ "House of Data" — Governed Data Foundation + Agentic AI** · *Chief Data Office, global asset manager*<br>
+**🏛️ "House of Data" — Governed Data Foundation + Agentic AI** · *Chief Data Office*<br>
 Engineered the Chief Data Office's single-source data foundation — ingestion, harmonisation and modelling across **Snowflake, Azure & Microsoft Fabric**, federated through **Starburst/Trino**, governed in **Collibra** — then built agentic-AI experiences on **Agentforce, Prompt Builder & Data 360** so leadership can ask natural-language questions on governance, quality and lineage, feeding senior risk dashboards and regulatory (FED) reporting.
 
-**🚢 COVID-19 Live Global Ports & Shipping-Routes Command Center** · *global industrial manufacturer*<br>
+**🚢 COVID-19 Live Global Ports & Shipping-Routes Command Center** · *Procurement & Supply Chain*<br>
 **Python + REST-API ingestion pipelines** feeding a live Tableau dashboard with real-time status of countries, borders and ports — best/most-affordable route recommendations across Sea, Air & Land with live climate-warning overlays. The procurement team's daily command center as global supply lines changed by the hour.
 
-**📦 Data-as-a-Service at Scale** · *core data analytics CoE, global manufacturer*<br>
+**📦 Data-as-a-Service at Scale** · *Data & Analytics Centre of Excellence*<br>
 Owned the full pipeline — data marts, dimensional models, **ETL with Tableau Prep · Alteryx · Oracle SQL · Python** (incl. Scrapy web-scraping of alternative data) — deploying **150+ governed dashboards globally**; embedded MDM & anomaly monitoring that helped identify **$20M in supply-chain savings**.
 
-**🏦 Credit-Risk Data & Analytics — Consumer & Corporate Banking** · *top-tier global bank*<br>
+**🏦 Credit-Risk Data & Analytics — Consumer & Corporate Banking** · *Credit Risk & Regulatory Reporting*<br>
 Built governed data foundations on **Snowflake** with enterprise **ETL/ELT pipelines (Python — pandas/NumPy, Alteryx)** over Oracle & Big Data back ends, powering exposure, delinquency, vintage and portfolio-risk reporting for credit-card operations with audited source-to-target lineage.
 
-**🛒 Omnichannel Retail Analytics** · *US big-box and office retail chains*<br>
+**🛒 Omnichannel Retail Analytics** · *Merchandising & Customer Analytics*<br>
 Market-basket analysis, cross-sell/upsell recommendations, loyalty segmentation, **Python-based competitor price-index pipelines** for dynamic pricing, and store-traffic prediction on Teradata-backed data.
 
 ## 💼 How I Got Here
@@ -214,20 +215,19 @@ Market-basket analysis, cross-sell/upsell recommendations, loyalty segmentation,
 Fifteen years, one direction of travel — each step a layer further down the stack,
 then a layer further out in scope.
 
-| Stage | Role | What changed |
-|---|---|---|
-| **Reporting** | Data Analyst · Tableau Trainer | Learned the tool, and that the tool is rarely the problem |
-| **Analytics** | Business Analyst · Tableau Consultant | Retail and CX analytics — market basket, loyalty, pricing, store traffic |
-| **Modelling** | Senior Data Analyst · Consultant | Insurance analytics and predictive risk models; started owning the data, not just the view |
-| **Engineering** | Senior Data Engineer · BI Solution Architect | Supply-chain data platform and Data-as-a-Service; 150+ governed dashboards, MDM and anomaly monitoring |
-| **Programme delivery** | Senior Process Manager · Lead Data Consultant | Multi-stakeholder BI programmes; legacy-BI to Tableau migration and rationalisation |
-| **Architecture** | Design Architect · Product Manager | Credit-risk reporting estates, enterprise architecture and data modelling as the deliverable |
-| **Chief Data Office** | Solutions Architect | Governed data foundations, data-vault and lakehouse architecture, agentic AI on certified data, regulatory reporting |
+| Stage | Role | Function | What changed |
+|---|---|---|---|
+| **Reporting** | Data Analyst · Tableau Trainer | Business Intelligence | Learned the tool, and that the tool is rarely the problem |
+| **Analytics** | Business Analyst · Tableau Consultant | Merchandising & Customer Analytics | Retail and CX analytics — market basket, loyalty, pricing, store traffic |
+| **Modelling** | Senior Data Analyst · Consultant | Risk Analytics | Insurance analytics and predictive risk models; started owning the data, not just the view |
+| **Engineering** | Senior Data Engineer · BI Solution Architect | Procurement & Supply Chain | Supply-chain data platform and Data-as-a-Service; 150+ governed dashboards, MDM and anomaly monitoring |
+| **Programme delivery** | Senior Process Manager · Lead Data Consultant | Data & Analytics Centre of Excellence | Multi-stakeholder BI programmes; legacy-BI to Tableau migration and rationalisation |
+| **Architecture** | Design Architect · Product Manager | Credit Risk & Regulatory Reporting | Credit-risk reporting estates, enterprise architecture and data modelling as the deliverable |
+| **Chief Data Office** | Solutions Architect | Chief Data Office | Governed data foundations, data-vault and lakehouse architecture, agentic AI on certified data, regulatory reporting |
 
-*Organisations include global investment banks and asset managers, a Fortune 500
-industrial manufacturer, Big Four-scale consultancies and US retail majors. Happy
-to talk specifics in a conversation — this profile is about the work, not the
-letterheads.*
+*Roles are described by the function they sat in rather than by employer —
+the work is the same wherever the letterhead came from. Happy to talk
+specifics in a conversation.*
 
 ## 🎯 Current Focus
 
